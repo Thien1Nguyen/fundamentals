@@ -30,8 +30,8 @@ students = [
         {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 def iterateDictionary(students):
-    for i in students:
-        print(f"first_name - {i['first_name']}, last_name - {i['last_name']}")
+    for key in students:
+        print(f"first_name - {key['first_name']}, last_name - {key['last_name']}")
 iterateDictionary(students)
 
 #3

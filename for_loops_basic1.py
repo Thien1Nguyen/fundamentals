@@ -8,7 +8,7 @@ Flexible Counter - Set three variables: lowNum, highNum, mult. Starting at lowNu
     For example, if lowNum=2, highNum=9, and mult=3, the loop should print 3, 6, 9 (on successive lines)
 """
 #1
-for i in range(0, 151): 
+for i in range(151): 
     print(i);
 #2
 for i in range(5, 1005, 5):
